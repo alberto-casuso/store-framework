@@ -31,18 +31,22 @@
       "order-by.v2"
     ]
   },
-  "flex-layout.col#left":{
+  "flex-layout.col#filter":{
     "children":[
       "filter-navigator.v3"
     ],
     "props":{
+      "verticalAlign":"left",
       "width":"20%"
     }
   },
-  "flex-layout.col#right":{
+  "flex-layout.col#search":{
     "children":[
       "search-content"
-    ]
+    ],
+    "props":{
+      "verticalAlign":"right"
+    }
   },
   "search-content":{
     "blocks":[
