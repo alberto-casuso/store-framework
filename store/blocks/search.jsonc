@@ -31,6 +31,14 @@
       "flex-layout.col#search"
     ]
   },
+  "flex-layout.col#filter":{
+    "children":[
+      "filter-navigator.v3"
+    ],
+    "props":{
+      "width":"20%"
+    }
+  },
   "flex-layout.col#search":{
     "children":[
       "search-content"
@@ -41,14 +49,6 @@
       "gallery",
       "not-found"
     ]
-  },
-  "flex-layout.col#filter":{
-    "children":[
-      "filter-navigator.v3"
-    ],
-    "props":{
-      "width":"20%"
-    }
   },
   "gallery":{
     "blocks":["product-summary.shelf"]
